@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        android:text="Edit centralizado"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_text_center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        android:text="Texto centralizado"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_center_text_center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        android:text="Edit e texto centralizados"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

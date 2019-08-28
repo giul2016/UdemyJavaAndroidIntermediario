@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ViewElementsDivider">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#ececec</item>
+    </style>
+
+    <style name="WhiteEditText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:color">#ffffff</item>
+        <item name="android:backgroundTint">#ffffff</item>
+    </style>
+
+    <style name="DefaultButton" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingLeft">70dp</item>
+        <item name="android:background">@drawable/shape_round_button</item>
+        <item name="android:paddingRight">70dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

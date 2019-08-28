@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.GuestFormActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/confirmacao"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_not_confirmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nao_confirmado" />
+
+        <RadioButton
+            android:id="@+id/radio_present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/presente" />
+
+        <RadioButton
+            android:id="@+id/radio_absent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ausente" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/salvar"
+        android:textStyle="bold" />
+
+</LinearLayout>
